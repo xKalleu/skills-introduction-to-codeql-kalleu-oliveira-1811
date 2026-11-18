@@ -17,7 +17,7 @@ Normalmente, as [queries](https://codeql.github.com/docs/writing-codeql-queries/
 
 Em muitos casos, aproveitar o CodeQL é tão simples quanto aceitar a suite padrão, mas você também pode selecionar a suite estendida ou personalizar a sua própria com [GitHub Actions]().
 
-<img width="250" align="right" alt="caixa de configuração padrão do codeql" src="../images/codeql-default-configuration-box.png"/>
+<img width="250" align="right" alt="caixa de configuração padrão do codeql" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/codeql-default-configuration-box.png?raw=true"/>
 
 Estas são algumas das opções fornecidas pela configuração padrão:
 
@@ -41,7 +41,7 @@ Estas são algumas das opções fornecidas pela configuração padrão:
 
 1. Na configuração do **CodeQL**, clique no menu suspenso **Set up** e escolha **Default**.
 
-   <img width="400" alt="habilitar code scanning" src="../images/enable-code-scanning.png"/>
+   <img width="400" alt="habilitar code scanning" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/enable-code-scanning.png?raw=true"/>
 
 1. Clique em **Enable CodeQL**.
 

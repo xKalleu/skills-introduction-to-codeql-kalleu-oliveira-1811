@@ -4,7 +4,7 @@ Com as mudanças do nosso pull request revisadas pelo CodeQL, agora temos alguns
 
 O GitHub oferece a aba **Security and quality** para gerenciar com segurança todas as questões relacionadas à segurança. O CodeQL salva os alertas usando o mesmo padrão de muitas outras ferramentas de análise, e os resultados aparecem na área **Code scanning**.
 
-<img width="600" alt="visão geral da aba security" src="../images/security-tab-overview.png" />
+<img width="600" alt="visão geral da aba security" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/security-tab-overview.png?raw=true" />
 
 ### Quais informações os alertas fornecem?
 
@@ -12,7 +12,7 @@ A área principal de um alerta mostra o status de resolução, a branch afetada,
 
 Depois das informações de status, são apresentados uma descrição detalhada do problema, soluções recomendadas e sugestões de mudanças no código.
 
-<img width="600" alt="informações adicionais" src="../images/additional-information.png"/>
+<img width="600" alt="informações adicionais" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/additional-information.png?raw=true"/>
 
 ### O que é CWE?
 
@@ -29,7 +29,7 @@ O **Common Weakness Enumeration (CWE)** é um sistema de categorização de frag
 
 1. Volte ao pull request criado recentemente. Ignore o check que falhou e clique no botão **Merge pull request**.
 
-   <img width="300" alt="botão de merge" src="../images/merge-button.png" />
+   <img width="300" alt="botão de merge" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/merge-button.png?raw=true" />
 
 1. Clique em **Delete branch**. Ela não é mais necessária.
 
@@ -39,7 +39,7 @@ O **Common Weakness Enumeration (CWE)** é um sistema de categorização de frag
 
 1. Na navegação lateral esquerda, note que a opção **Code Scanning** agora tem o número `1` ao lado, informando que há um alerta aberto.
 
-   <img width="250" alt="contagem de alertas do code scanning" src="../images/code-scanning-alerts-count.png" />
+   <img width="250" alt="contagem de alertas do code scanning" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/code-scanning-alerts-count.png?raw=true" />
 
 ### ⌨️ Atividade: Revisar um alerta
 
@@ -49,7 +49,7 @@ O **Common Weakness Enumeration (CWE)** é um sistema de categorização de frag
 
 1. Observe a descrição, a explicação da vulnerabilidade e a solução recomendada.
 
-   <img width="600" alt="visão geral do alerta" src="../images/alert-overview.png" />
+   <img width="600" alt="visão geral do alerta" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/alert-overview.png?raw=true" />
 
 1. Note que a trilha de auditoria mostra a origem da vulnerabilidade e indica que ela veio do nosso pull request.
 
@@ -63,13 +63,13 @@ O **Common Weakness Enumeration (CWE)** é um sistema de categorização de frag
    Este é um repositório de aprendizado para estudar alertas do CodeQL.
    ```
 
-   <img width="300" alt="opções de descarte do alerta" src="../images/dismiss-alert-options.png" />
+   <img width="300" alt="opções de descarte do alerta" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/dismiss-alert-options.png?raw=true" />
 
 1. Clique no botão **Dismiss**.
    - O estado do alerta mudará para `Dismissed`.
    - Uma entrada somente leitura foi adicionada com a descrição na trilha de auditoria, mostrando quem o fechou.
 
-   <img width="300" alt="entrada do log de auditoria mostrando o alerta descartado" src="../images/audit-log-alert-dismissed.png" />
+   <img width="300" alt="entrada do log de auditoria mostrando o alerta descartado" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/audit-log-alert-dismissed.png?raw=true" />
 
 1. No canto superior direito, clique no botão **Reopen alert**.
    - O estado do alerta voltará para `Open`.

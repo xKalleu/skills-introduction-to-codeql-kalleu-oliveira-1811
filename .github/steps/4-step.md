@@ -12,7 +12,7 @@ Por fim, vamos usar as informações fornecidas pelo CodeQL para entender melhor
 
 1. No canto superior direito da pré-visualização, clique no botão **Edit**.
 
-   <img width="500" alt="botão de edição" src="../images/edit-button.png"/>
+   <img width="500" alt="botão de edição" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/edit-button.png?raw=true"/>
 
 1. Vá até aproximadamente a **linha 16** e altere-a para o conteúdo abaixo.
 
@@ -31,10 +31,10 @@ Por fim, vamos usar as informações fornecidas pelo CodeQL para entender melhor
 
 1. Clique em **Closed** para exibir o alerta que acabamos de resolver.
 
-   <img width="350" alt="botão de alertas fechados" src="../images/closed-alerts-button.png" />
+   <img width="350" alt="botão de alertas fechados" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/closed-alerts-button.png?raw=true" />
 
 1. Abra o alerta e note que a trilha de auditoria agora inclui como o alerta foi corrigido.
 
-   <img width="350" alt="trilha de auditoria do alerta corrigido" src="../images/audit-trail-fixed-alert.png" />
+   <img width="350" alt="trilha de auditoria do alerta corrigido" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/audit-trail-fixed-alert.png?raw=true" />
 
 1. Com o alerta corrigido, a Mona vai verificar seu progresso e compartilhar a revisão final. Bom trabalho! Você concluiu tudo! 🥳

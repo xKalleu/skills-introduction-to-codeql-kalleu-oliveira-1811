@@ -10,7 +10,7 @@ Para ver como o Code Scanning funciona, vamos introduzir uma vulnerabilidade no 
 
 1. No canto superior direito da pré-visualização, clique no botão **Edit**.
 
-   <img width="500" alt="botão de edição" src="../images/edit-button.png"/>
+   <img width="500" alt="botão de edição" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/edit-button.png?raw=true"/>
 
 1. Vá até aproximadamente a **linha 16** e altere-a para o conteúdo abaixo.
 
@@ -34,7 +34,7 @@ Para ver como o Code Scanning funciona, vamos introduzir uma vulnerabilidade no 
 
 1. Role até o final do pull request e procure por um check chamado `CodeQL`. Esse é o job de análise que está escaneando as mudanças propostas no pull request.
 
-   <img width="500" alt="check do CodeQL em andamento" src="../images/codeql-check-in-progress.png" />
+   <img width="500" alt="check do CodeQL em andamento" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/codeql-check-in-progress.png?raw=true" />
 
 1. Se o job ainda estiver em execução, aguarde alguns minutos até que ele termine.
 
@@ -42,7 +42,7 @@ Para ver como o Code Scanning funciona, vamos introduzir uma vulnerabilidade no 
    - Note que os resultados encontraram uma vulnerabilidade de SQL injection. Também é sugerida uma correção.
    - Não se preocupe em responder ou resolver o problema (ainda).
 
-   <img width="500" alt="resultados do code scan" src="../images/code-scan-results.png" />
+   <img width="500" alt="resultados do code scan" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/code-scan-results.png?raw=true" />
 
    > 💡 Dica: Clicar no link **Show paths** fornece informações adicionais sobre o fluxo de dados do alerta, desde a entrada do usuário (source), passando pela aplicação, até o ponto em que é utilizado (sink).
 
@@ -52,21 +52,21 @@ Para ver como o Code Scanning funciona, vamos introduzir uma vulnerabilidade no 
 
 1. Na navegação lateral esquerda, selecione a entrada **CodeQL** para filtrar as execuções do workflow.
 
-   <img width="500" alt="filtro do codeql" src="../images/codeql-filter.png"/>
+   <img width="500" alt="filtro do codeql" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/codeql-filter.png?raw=true"/>
 
 1. Clique na execução do workflow com o nome **PR #2** para abrir uma página com mais detalhes.
 
-   <img width="500" alt="configuração do codeql" src="../images/codeql-pr2.png"/>
+   <img width="500" alt="configuração do codeql" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/codeql-pr2.png?raw=true"/>
 
 1. Expanda os jobs da execução clicando em **Show all jobs** e depois clique na entrada **Analyze (python)**. A lista de todos os steps do workflow será exibida.
 
-   <img height="250" alt="jobs de matrix" src="../images/matrix-jobs.png" />
+   <img height="250" alt="jobs de matrix" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/matrix-jobs.png?raw=true" />
 
-   <img height="250" alt="lista de jobs do codeql" src="../images/list-of-codeql-jobs.png" />
+   <img height="250" alt="lista de jobs do codeql" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/list-of-codeql-jobs.png?raw=true" />
 
 1. Encontre a entrada de análise e considere revisar os logs.
 
-   <img width="500" alt="logs da análise em python" src="../images/python-analysis-logs.png" />
+   <img width="500" alt="logs da análise em python" src="https://github.com/xKalleu/skills-introduction-to-codeql-kalleu-oliveira-1811/blob/main/.github/images/python-analysis-logs.png?raw=true" />
 
 1. Com o pull request criado e o scan do CodeQL concluído, a Mona vai verificar seu progresso e compartilhar os próximos passos.
 
